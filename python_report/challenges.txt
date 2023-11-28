@@ -1,3 +1,3 @@
-Faced difficulties in optimizing the performance of prediction algorithm.
-We also faced a challenge in choosing the most suitable machine learing and statistical algorithms for the model.
-We also faced a challenge on providing explanations for the predictions that could gain user trust.
+We had challenges optimizing the performance of the prediction algorithm.
+We also faced a challenge in choosing the most suitable machine learning and statistical algorithms for the model.
+We also faced a challenge explaining the predictions that could gain user trust.
