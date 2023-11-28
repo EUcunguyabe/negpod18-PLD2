@@ -1,0 +1,4 @@
+Adding more input to insure we get enough data for better prediction
+Conduct further optimization of the disease prediction algorithm.
+Enhance input validation to handle a wider range of user inputs.
+Implement any additional user feedback received during testing.
