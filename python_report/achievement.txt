@@ -1,0 +1,2 @@
+The team has made significant progress in developing  the algorithm needed for the disease prediction model.
+The application aims to predict the possibility of disease based on user inputs.Working towards implementing an SDL database to store the user input for future use.
