@@ -1,3 +1,1 @@
-# pld2-ng4
-
-## everyone must add their contentss
+Negpod 18 repository for PLD project 
