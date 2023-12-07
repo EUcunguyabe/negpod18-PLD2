@@ -1,6 +1,8 @@
 # import mysql connector
 
+
 import mysql.connector
+"""Mysql.connector imported"""
 
 # create database connection
 con = mysql.connector.connect(host="localhost", user="root", password="", database="health_pkd")
