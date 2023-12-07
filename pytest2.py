@@ -2,7 +2,7 @@ import sys
 import random
 import time
 from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QPushButton, QMessageBox, QLineEdit, QVBoxLayout, QFormLayout, QTextBrowser
-
+from connection import db, con
 class HealthTestApp(QWidget):
     def __init__(self):
         super().__init__()
@@ -157,7 +157,19 @@ class HealthTestApp(QWidget):
         patient_name = self.patient_name_entry.text()
         patient_age = self.patient_age_entry.text()
         patient_id = self.patient_id_entry.text()
-        print(f"Patient ID: {patient_id}, Patient Name: {patient_name}, Age: {patient_age} - Data saved to the database.")
+        data = (patient_name, patient_age, patient_id)
+        try:  # insert patient
+            sql = "INSERT INTO `patient`(`name`, `age`, `id`) VALUES (%s,%s,%s)"
+            db.execute(sql, data)
+            con.commit()
+            if db.rowcount > 0:
+                QMessageBox.warning(self, "Message", "Saved Patient Information")
+            else:
+                QMessageBox.warning(self, "Message", "Patient Information Not Addd")
+        except Exception as e:
+            QMessageBox.warning(self, "Message", e)
+
+
 
     def clear_page(self):
         self.admin_authenticated = False
