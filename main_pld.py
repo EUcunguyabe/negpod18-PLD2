@@ -3,6 +3,7 @@ import random
 import time
 from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QPushButton, QMessageBox, QLineEdit, QVBoxLayout, QFormLayout, QTextBrowser
 
+
 class HealthTestApp(QWidget):
     def __init__(self):
         super().__init__()
