@@ -7,4 +7,3 @@ con = mysql.connector.connect(host="localhost", user="root", password="", databa
 # create object to help use send request and get request from database
 
 db = con.cursor()
-# query to send
