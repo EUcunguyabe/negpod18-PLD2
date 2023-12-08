@@ -122,7 +122,7 @@ class HealthTestApp(QWidget):
         # Initialize positive count for the specific health test
         positive_symptoms_count = 0
 
-        # Ask symptom questions specific to the selected health test
+        # Ask different assumption question 
         for symptom_question in self.symptoms[test_type]:
             response = QMessageBox.information(self, "Symptom", symptom_question, QMessageBox.Yes | QMessageBox.No)
             if response == QMessageBox.Yes:
