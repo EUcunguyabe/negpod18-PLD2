@@ -24,7 +24,6 @@ class HealthTestApp:
     def run_health_test(self, test_type):
         messagebox.showinfo("Health Test", f"Welcome! Let's start the {test_type} test.")
 
-        # Rest of your code for the specific health test goes here...
           # Initialize positive count
         positive_symptoms_count = 0
 
@@ -48,7 +47,7 @@ class HealthTestApp:
         if symp4 == 'yes':
             positive_symptoms_count += 1
 
-        # Determine results for cold based on symptoms
+        # Determine results for cold based on symptoms you have choosen
         if positive_symptoms_count >= 3:
             message = """
             It's possible you have a cold. Here are some general tips:
