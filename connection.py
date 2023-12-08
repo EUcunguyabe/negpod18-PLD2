@@ -4,7 +4,7 @@
 import mysql.connector
 """Mysql.connector imported"""
 
-# create database connection
+# Establishing a connection to the database
 con = mysql.connector.connect(host="localhost", user="root", password="", database="health_pkd")
 """database connection created"""
 
