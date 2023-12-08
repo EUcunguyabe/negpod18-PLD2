@@ -22,6 +22,8 @@ class HealthTestApp(QWidget):
         self.admin_authenticated = False
 
         self.init_admin_login()
+        
+        # initializaton of login 
 
     def init_admin_login(self):
         self.label = QLabel("Admin Login", self)
