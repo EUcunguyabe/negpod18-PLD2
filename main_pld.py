@@ -11,7 +11,7 @@ class HealthTestApp(QWidget):
         self.setWindowTitle("Health Test App")
         self.setGeometry(100, 100, 400, 400)
 
-        # Separate symptom questions and counts for each health test
+        # Separating symptom questions and counts for all health tests
         self.symptoms = {
             "Cold": ["Any headaches?", "Are you having a fever?", "Are you having a dry cough?", "Are you having a dry sneezing?", "Are you experiencing pain and fatigue?"],
             "Allergy": ["Hives or skin rashes?", "Are you having some eye irritations?", "Are you having a stuffy or runny nose?", "Are you having puffy and watery eyes?", "Are you experiencing a sore throat?", "Are you experiencing either one of the following: diarrhea, nausea, vomiting, excess gas, indigestion?", "Any Tingling or swelling of the lips, face, or tongue?"],
