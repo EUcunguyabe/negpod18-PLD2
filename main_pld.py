@@ -138,6 +138,7 @@ class HealthTestApp(QWidget):
             QMessageBox.information(self, "Health Test Result", f"Based on your symptoms, it seems you may not have {test_type}.")
 
     def view_results(self):
+        # if not admin error will be printed 
         if not self.admin_authenticated:
             QMessageBox.warning(self, "Unauthorized", "Please log in as an admin first.")
             return
@@ -152,6 +153,7 @@ class HealthTestApp(QWidget):
         results_dialog.setWindowTitle("View Results")
         results_dialog.exec_()
 
+#=
     def save_data(self):
         if not self.admin_authenticated:
             QMessageBox.warning(self, "Unauthorized", "Please log in as an admin first.")
