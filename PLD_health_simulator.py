@@ -21,20 +21,6 @@ class HealthTestApp:
         self.uti_button = tk.Button(master, text="UTI Test", command=lambda: self.run_health_test("UTI"))
         self.uti_button.pack()
 
-        self.conjunctivitis_button = tk.Button(master, text="Conjunctivitis Test", command=lambda: self.run_health_test("Conjunctivitis"))
-        self.conjunctivitis_button.pack()
-
-        self.diarrhea_button = tk.Button(master, text="Diarrhea Test", command=lambda: self.run_health_test("Diarrhea"))
-        self.diarrhea_button.pack()
-
-        self.headaches_button = tk.Button(master, text="Headaches Test", command=lambda: self.run_health_test("Headaches"))
-        self.headaches_button.pack()
-
-        self.mono_button = tk.Button(master, text="Mono Test", command=lambda: self.run_health_test("Mono"))
-        self.mono_button.pack()
-
-        # Add two more diseases
-
     def run_health_test(self, test_type):
         messagebox.showinfo("Health Test", f"Welcome! Let's start the {test_type} test.")
 
