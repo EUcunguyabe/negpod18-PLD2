@@ -13,10 +13,10 @@ class HealthTestApp(QWidget):
 
         # Separating symptom questions and counts for all health tests
         self.symptoms = {
-            "Cold": ["Any headaches?", "Are you having a fever?", "Are you having a dry cough?", "Are you having a dry sneezing?", "Are you experiencing pain and fatigue?"],
-            "Allergy": ["Hives or skin rashes?", "Are you having some eye irritations?", "Are you having a stuffy or runny nose?", "Are you having puffy and watery eyes?", "Are you experiencing a sore throat?", "Are you experiencing either one of the following: diarrhea, nausea, vomiting, excess gas, indigestion?", "Any Tingling or swelling of the lips, face, or tongue?"],
+            "Cold": ["Any headaches?", "Are you having a fever?", "Are you having dry coughs?", "Are you experiencing dry sneezes?", "Are you experiencing pain and/or fatigue?"],
+            "Allergy": ["Hives or skin rashes?", "Are you having any eye irritations?", "Are you having a stuffy or runny nose?", "Are you having puffy and watery eyes?", "Are you experiencing a sore throat?", "Are you experiencing either one of the following: diarrhea, nausea, vomiting, excess gas, indigestion?", "Any Tingling or swelling of the lips, face, or tongue?"],
             "Stomach Flu": ["Are you experiencing Diarrhea?", "Are you experiencing nausea or vomiting?", "Are you having abdominal cramps?", "Are you having a fever?"],
-            "UTI": ["Are you experiencing Pain or burning during urination?", "Are you experiencing frequent urination?", "Are you having cloudy or strong-smelling urine?", "Any lower abdominal pain?"]
+            "UTI": ["Are you experiencing a painful or burning sensation during urination?", "Are you experiencing frequent urination?", "Are you having cloudy or strong-smelling urine?", "Any lower abdominal pain?"]
         }
         
         self.admin_authenticated = False
