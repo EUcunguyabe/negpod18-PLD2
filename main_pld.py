@@ -18,10 +18,7 @@ class HealthTestApp(QWidget):
             "Stomach Flu": ["Are you experiencing Diarrhea?", "Are you experiencing nausea or vomiting?", "Are you having abdominal cramps?", "Are you having a fever?"],
             "UTI": ["Are you experiencing Pain or burning during urination?", "Are you experiencing frequent urination?", "Are you having cloudy or strong-smelling urine?", "Any lower abdominal pain?"]
         }
-"Conjunctivitis": ["Are you experiencing redness in the eyes?", "Are you having itchiness or discomfort in the eyes?", "Any discharge from the eyes?", "Are you sensitive to light?", "Do you have blurred vision?"],
-            "Diarrhea": ["Are you experiencing frequent loose, watery stools?", "Any abdominal cramps or pain?", "Do you have a fever?", "Are you feeling dehydrated?"],
-            "Headaches": ["Are you experiencing a throbbing or pulsating pain?", "Is the headache on one or both sides of your head?", "Are you sensitive to light or noise?", "Do you have nausea or vomiting?", "Have you noticed visual disturbances?"],
-            "Mono": ["Are you experiencing severe fatigue?", "Do you have a sore throat?", "Are your lymph nodes swollen?", "Do you have a fever?", "Are you experiencing muscle aches?"],
+        
         self.admin_authenticated = False
 
         self.init_admin_login()
